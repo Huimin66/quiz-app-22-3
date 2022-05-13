@@ -1,0 +1,12 @@
+.tags {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.tag li {
+  background-color: #c5cedd;
+  margin: 0.4rem 0 0 0;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}

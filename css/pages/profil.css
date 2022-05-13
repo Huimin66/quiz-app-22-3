@@ -1,0 +1,48 @@
+@import "../components/common.css";
+@import "../components/header.css";
+@import "../components/nav.css";
+@import "../components/button.css";
+
+.main {
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5vh;
+}
+
+.foto_name_container {
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10vw;
+}
+
+.foto {
+  border-radius: 10%;
+}
+
+.name {
+  padding-top: 5vh;
+}
+.self_introduce {
+  padding: 1rem;
+  border: 1px dotted rgb(65, 58, 58);
+  background-color: rgb(232, 242, 242);
+}
+
+.skill_list {
+  padding-top: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill_list li {
+  padding: 1rem;
+  border: 1px dotted rgb(65, 58, 58);
+  border-radius: 10%;
+  background-color: rgb(175, 167, 157);
+}
+
+.logout {
+  bottom: 10vh;
+}

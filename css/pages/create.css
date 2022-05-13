@@ -1,0 +1,26 @@
+@import "../components/common.css";
+@import "../components/header.css";
+@import "../components/nav.css";
+@import "../components/button.css";
+
+.form {
+  margin: 2rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+.textarea,
+.input_tags {
+  display: block;
+  width: 80vw;
+  margin-top: 1rem;
+}
+
+.textarea {
+  height: 15vh;
+}
+.input_tags {
+  height: 4vh;
+}
