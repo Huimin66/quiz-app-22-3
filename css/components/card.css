@@ -35,3 +35,14 @@
   border-radius: 0.3rem;
   color: white;
 }
+
+.card-header {
+  position: relative;
+}
+.card-bookmark {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

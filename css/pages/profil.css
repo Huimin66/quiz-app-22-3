@@ -30,13 +30,13 @@
   background-color: rgb(232, 242, 242);
 }
 
-.skill_list {
+.skill-list {
   padding-top: 3vh;
   display: flex;
   justify-content: space-evenly;
 }
 
-.skill_list li {
+.skill-list li {
   padding: 1rem;
   border: 1px dotted rgb(65, 58, 58);
   border-radius: 10%;
