@@ -1,26 +1,31 @@
-@import "../components/common.css";
+@import "../reset.css";
+@import "../common.css";
 @import "../components/header.css";
 @import "../components/nav.css";
 @import "../components/button.css";
 
 .form {
-  margin: 2rem;
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
   font-size: large;
 }
+
+.gap-none {
+  margin-bottom: -3rem;
+}
+
 .textarea,
 .input_tags {
-  display: block;
-  width: 80vw;
+  padding: 1rem;
+  width: 100%;
   margin-top: 1rem;
 }
 
 .textarea {
-  height: 15vh;
+  height: 5rem;
 }
 .input_tags {
-  height: 4vh;
+  height: 2rem;
 }

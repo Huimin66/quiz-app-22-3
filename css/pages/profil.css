@@ -1,48 +1,43 @@
-@import "../components/common.css";
+@import "../reset.css";
+@import "../common.css";
 @import "../components/header.css";
 @import "../components/nav.css";
 @import "../components/button.css";
 
-.main {
-  padding: 2rem;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 5vh;
-}
-
-.foto_name_container {
-  height: 25vh;
+.foto-name-container {
+  height: 8rem;
   display: flex;
   justify-content: flex-start;
-  gap: 10vw;
+  gap: 2rem;
 }
 
 .foto {
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .name {
-  padding-top: 5vh;
+  padding-top: 1rem;
 }
-.self_introduce {
+.self-introduce {
   padding: 1rem;
   border: 1px dotted rgb(65, 58, 58);
   background-color: rgb(232, 242, 242);
 }
 
-.skill-list {
-  padding-top: 3vh;
+.skill-lists {
+  padding-top: 2rem;
   display: flex;
+  gap: 1rem;
   justify-content: space-evenly;
 }
 
-.skill-list li {
+.skill-lists li {
   padding: 1rem;
   border: 1px dotted rgb(65, 58, 58);
-  border-radius: 10%;
+  border-radius: 5%;
   background-color: rgb(175, 167, 157);
 }
 
 .logout {
-  bottom: 10vh;
+  bottom: 8rem;
 }
