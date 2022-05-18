@@ -18,11 +18,13 @@ textarea {
   resize: none;
 }
 body {
+  margin: 0 auto;
   display: grid;
   grid-template-rows: 60px auto 60px;
   height: 100vh;
   background-color: rgb(132, 148, 161);
   font-family: sans-serif;
+  max-width: 600px;
 }
 
 ul li {
