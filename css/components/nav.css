@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: rgb(60, 62, 68);
+  background-color: rgb(60 62 68);
   position: sticky;
   bottom: 0;
 }
@@ -13,7 +13,7 @@
 }
 
 .nav a:not(:last-child)::after {
-  content: "|";
+  content: '|';
   position: absolute;
   font-size: 1.5rem;
   top: 30%;

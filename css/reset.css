@@ -29,3 +29,11 @@ p {
   line-height: 1.5;
   font-family: sans-serif;
 }
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+  border: none;
+}
