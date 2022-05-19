@@ -1,7 +1,6 @@
 .header {
-  background-color: rgb(60, 62, 68);
-  /*   background-color: rgb(33, 40, 58); */
-  color: #dfdfe7;
+  background-color: rgb(60 62 68);
+  color: #dfdfe7; /*   background-color: rgb(33, 40, 58); */
   position: sticky;
   top: 0;
   z-index: 1;

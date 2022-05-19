@@ -1,8 +1,8 @@
-@import "../reset.css";
-@import "../common.css";
-@import "../components/header.css";
-@import "../components/nav.css";
-@import "../components/button.css";
+@import '../reset.css';
+@import '../common.css';
+@import '../components/header.css';
+@import '../components/nav.css';
+@import '../components/button.css';
 
 .form {
   display: flex;
@@ -26,6 +26,7 @@
 .textarea {
   height: 5rem;
 }
+
 .input_tags {
   height: 2rem;
 }

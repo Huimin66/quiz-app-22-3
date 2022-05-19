@@ -1,8 +1,9 @@
-@import "../reset.css";
-@import "../common.css";
-@import "../components/header.css";
-@import "../components/nav.css";
-@import "../components/button.css";
+@import '../reset.css';
+@import '../common.css';
+@import '../components/header.css';
+@import '../components/card.css';
+@import '../components/tags.css';
+@import '../components/nav.css';
 
 .foto-name-container {
   height: 8rem;
@@ -18,10 +19,11 @@
 .name {
   padding-top: 1rem;
 }
+
 .self-introduce {
   padding: 1rem;
-  border: 1px dotted rgb(65, 58, 58);
-  background-color: rgb(232, 242, 242);
+  border: 1px dotted rgb(65 58 58);
+  background-color: rgb(232 242 242);
 }
 
 .skill-lists {
@@ -33,9 +35,9 @@
 
 .skill-lists li {
   padding: 1rem;
-  border: 1px dotted rgb(65, 58, 58);
+  border: 1px dotted rgb(65 58 58);
   border-radius: 5%;
-  background-color: rgb(175, 167, 157);
+  background-color: rgb(175 167 157);
 }
 
 .logout {
