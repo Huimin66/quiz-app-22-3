@@ -30,11 +30,11 @@
   color: white;
 }
 
-.card-header {
+.card__header {
   position: relative;
 }
 
-.card-bookmark {
+.card__bookmark {
   width: 2rem;
   height: 2rem;
   position: absolute;
@@ -43,6 +43,27 @@
   fill: rgb(222 213 213);
 }
 
+.card__tags {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.card__tag li {
+  background-color: #c5cedd;
+  margin-top: 0.4rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
 .card-bookmark-saved {
   fill: rgb(63 94 35);
+}
+
+.card__answer {
+  display: none;
+}
+
+.show {
+  display: block;
 }

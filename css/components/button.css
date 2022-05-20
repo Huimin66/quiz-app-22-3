@@ -1,9 +1,6 @@
 .button {
-  position: fixed;
-  bottom: 15vh;
-  right: 40vw;
-  z-index: 1;
+  width: 8rem;
+  height: 2rem;
+  margin: 5rem auto;
   background-color: #e2e3ed;
-  width: 20vw;
-  height: 5vh;
 }
