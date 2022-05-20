@@ -2,17 +2,18 @@
 @import '../common.css';
 @import '../components/header.css';
 @import '../components/card.css';
-@import '../components/tags.css';
 @import '../components/nav.css';
+@import '../components/button.css';
 
 .foto-name-container {
-  height: 8rem;
   display: flex;
   justify-content: flex-start;
   gap: 2rem;
 }
 
 .foto {
+  width: 8rem;
+  height: 8rem;
   border-radius: 5%;
 }
 
@@ -27,10 +28,12 @@
 }
 
 .skill-lists {
+  width: 100%;
   padding-top: 2rem;
   display: flex;
   gap: 1rem;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skill-lists li {

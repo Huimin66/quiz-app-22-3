@@ -7,14 +7,12 @@ textarea {
 }
 
 body {
-  width: 100vw;
   margin: 0 auto;
   display: grid;
   grid-template-rows: 60px auto 60px;
   height: 100vh;
   background-color: rgb(132 148 161);
   font-family: sans-serif;
-  max-width: 600px;
 }
 
 ul li {
@@ -32,10 +30,9 @@ a {
 }
 
 .main {
-  width: 100%;
+  width: 100vw;
   padding: 1rem;
   display: grid;
-  margin: 0 auto;
   align-content: start;
   gap: 2rem;
   margin-top: 2rem;

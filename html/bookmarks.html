@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/pages/bookmarks.css" />
+    <link rel="stylesheet" href="../css/pages/bookmarks.css" />
     <title>Quiz App</title>
   </head>
   <body>
     <header class="scrolling header center">Bookmarks</header>
     <main class="main">
-      <section class="card radius">
-        <div class="card-header">
-          <h2 class="card-title">Question:</h2>
+      <section class="card radius" data-js="card">
+        <div class="card__header">
+          <h2 class="card__title">Question:</h2>
           <svg
-            class="card-bookmark"
+            class="card__bookmark"
             data-js="bookmark"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"
@@ -31,19 +31,27 @@
           suscipit qui officia odit laudantium expedita, ducimus rerum,
           similique, harum esse neque. Possimus, nulla.
         </p>
-        <a class="radius" href="#">SHOW ANSER </a>
-        <ul class="tags radius">
+        <a
+          class="radius"
+          data-js="toggle-answer-button"
+          href="javascript:void(0)"
+          >SHOW ANSER
+        </a>
+        <p class="card__answer" data-js="card-answer">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, velit!
+        </p>
+        <ul class="card__tags radius">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
         </ul>
       </section>
-      <section class="card radius">
-        <div class="card-header">
-          <h2 class="card-title">Question:</h2>
+      <section class="card radius" data-js="card">
+        <div class="card__header">
+          <h2 class="card__title">Question:</h2>
           <svg
-            class="card-bookmark"
+            class="card__bookmark"
             data-js="bookmark"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"
@@ -60,19 +68,27 @@
           suscipit qui officia odit laudantium expedita, ducimus rerum,
           similique, harum esse neque. Possimus, nulla.
         </p>
-        <a class="radius" href="#">SHOW ANSER </a>
-        <ul class="tags radius">
+        <a
+          class="radius"
+          data-js="toggle-answer-button"
+          href="javascript:void(0)"
+          >SHOW ANSER
+        </a>
+        <p class="card__answer" data-js="card-answer">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, velit!
+        </p>
+        <ul class="card__tags radius">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
         </ul>
       </section>
-      <section class="card radius">
-        <div class="card-header">
-          <h2 class="card-title">Question:</h2>
+      <section class="card radius" data-js="card">
+        <div class="card__header">
+          <h2 class="card__title">Question:</h2>
           <svg
-            class="card-bookmark"
+            class="card__bookmark"
             data-js="bookmark"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"
@@ -89,19 +105,27 @@
           suscipit qui officia odit laudantium expedita, ducimus rerum,
           similique, harum esse neque. Possimus, nulla.
         </p>
-        <a class="radius" href="#">SHOW ANSER </a>
-        <ul class="tags radius">
+        <a
+          class="radius"
+          data-js="toggle-answer-button"
+          href="javascript:void(0)"
+          >SHOW ANSER
+        </a>
+        <p class="card__answer" data-js="card-answer">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, velit!
+        </p>
+        <ul class="card__tags radius">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
         </ul>
       </section>
-      <section class="card radius">
-        <div class="card-header">
-          <h2 class="card-title">Question:</h2>
+      <section class="card radius" data-js="card">
+        <div class="card__header">
+          <h2 class="card__title">Question:</h2>
           <svg
-            class="card-bookmark"
+            class="card__bookmark"
             data-js="bookmark"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"
@@ -118,8 +142,16 @@
           suscipit qui officia odit laudantium expedita, ducimus rerum,
           similique, harum esse neque. Possimus, nulla.
         </p>
-        <a class="radius" href="#">SHOW ANSER </a>
-        <ul class="tags radius">
+        <a
+          class="radius"
+          data-js="toggle-answer-button"
+          href="javascript:void(0)"
+          >SHOW ANSER
+        </a>
+        <p class="card__answer" data-js="card-answer">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, velit!
+        </p>
+        <ul class="card__tags radius">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -128,7 +160,7 @@
       </section>
     </main>
     <nav class="nav">
-      <a class="center" href="./index.html">
+      <a class="center" href="../index.html">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
           <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
           <path
@@ -162,6 +194,6 @@
       </a>
     </nav>
 
-    <script src="./js/saved.js" defer></script>
+    <script type="module" src="../index.js" defer></script>
   </body>
 </html>
