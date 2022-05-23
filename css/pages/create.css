@@ -17,7 +17,7 @@
 }
 
 .textarea,
-.input_tags {
+.input__tags {
   padding: 1rem;
   width: 100%;
   margin-top: 1rem;
@@ -27,6 +27,6 @@
   height: 5rem;
 }
 
-.input_tags {
+.input__tags {
   height: 2rem;
 }
