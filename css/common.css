@@ -30,7 +30,6 @@ a {
 }
 
 .main {
-  width: 100vw;
   padding: 1rem;
   display: grid;
   align-content: start;
